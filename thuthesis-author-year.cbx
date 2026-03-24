@@ -2,3 +2,39 @@
   citation style]
 
 \RequireCitationStyle{gb7714-2015ay}
+
+\renewrobustcmd{\mkbibleftborder}{%
+  \ifthu@language@chinese
+    （%
+  \else
+    (%
+  \fi
+}
+\renewrobustcmd{\mkbibrightborder}{%
+  \ifthu@language@chinese
+    ）%
+  \else
+    )%
+  \fi
+}
+\def\gbpunctcommacite{%
+  \ifthu@language@chinese
+    ，%
+  \else
+    \addcomma\space
+  \fi
+}
+\def\gbpunctmarkcite{%
+  \ifthu@language@chinese
+    ，%
+  \else
+    \addcomma\space
+  \fi
+}
+\def\gbpunctsemicoloncite{%
+  \ifthu@language@chinese
+    ；%
+  \else
+    \addsemicolon\space
+  \fi
+}
