@@ -1068,16 +1068,19 @@
 %   \statement[file=scan-statement.pdf]
 % \end{latex}
 %
-% 由于正文篇幅可能有变化，以及电子版和打印版和有空白页的差别，声明的页码可能不同。
-% 所以为了避免重复打印扫描，编译生成声明页时默认\textsf{不含}页眉页脚，
-% 插入扫描页时默认加上页眉页脚。
+% 由于正文篇幅可能有变化，声明的页码可能不同。
+% 而且扫描件的页眉线可能有偏差
+% 所以为了避免重复打印扫描，
+% 在提交终稿 PDF 时，先编译不含页眉页脚的声明页。
+% 在打印、签名、扫描成 PDF 文档后，再插入 \file{scan-statement.pdf} 替换原始页面，
+% 并加上页眉页脚。
 %
-% 用户也可以通过 \option{page-style} 参数手动控制声明页是否含页眉页脚。
-% 例如编译生成声明页时要求包含页眉页脚：
+% 用户可以通过可选参数 \option{page-style} 手动控制声明页是否含页眉页脚。
+% 例如编译生成声明页时不含页眉页脚：
 % \begin{latex}
-%   \statement[page-style=plain]
+%   \statement[page-style=empty]
 % \end{latex}
-% 插入扫描页时不加页眉页脚：
+% 插入扫描页时加上页眉页脚：
 % \begin{latex}
 %   \statement[file=scan-statement.pdf, page-style=plain]
 % \end{latex}
@@ -5390,11 +5393,10 @@
   statement-page-style = {
     name = statement@page@style,
     choices = {
-      auto,
-      empty,
       plain,
+      empty,
     },
-    default = auto,
+    default = plain,
   }
 }
 \newcommand\statement[1][]{%
@@ -5411,13 +5413,6 @@
     \fi
   }%
   \kvsetkeys{thu@statement}{#1}%
-  \ifthu@statement@page@style@auto
-    \ifx\thu@statement@file\@empty
-      \thusetup{statement-page-style = empty}%
-    \else
-      \thusetup{statement-page-style = plain}%
-    \fi
-  \fi
   \ifx\thu@statement@file\@empty
     \thusetup{language=chinese}%
     \begingroup

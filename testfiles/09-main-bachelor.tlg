@@ -9672,7 +9672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines ...
 .\glue(\rightskip) 0.0
 No file bu.aux.
 Completed box being shipped out [7]
-\vbox(730.09772+0.0)x439.87962
+\vbox(730.09772+3.63611)x439.87962
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
@@ -9684,12 +9684,45 @@ Completed box being shipped out [7]
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\glue -18.78552
-.\vbox(748.88324+0.0)x426.79135, shifted 13.08827
+.\vbox(748.88324+3.63611)x426.79135, shifted 13.08827
 ..\vbox(12.0+0.0)x426.79135, glue set 12.0fil
 ...\glue 0.0 plus 1.0fil
 ...\hbox(0.0+0.0)x426.79135
 ....\special{color push gray 0}
 ....\hbox(0.0+0.0)x426.79135
+.....\hbox(0.0+0.0)x426.79135
+......\vbox(0.0+0.0)x426.79135
+.......\hbox(0.0+0.0)x426.79135
+........\hbox(0.0+0.0)x0.0, glue set - 426.79135fil
+.........\vbox(0.0+0.0)x426.79135
+..........\hbox(0.0+0.0)x426.79135, glue set 213.39568fil
+...........\hbox(0.0+0.0)x0.0
+...........\penalty 10000
+...........\glue(\parfillskip) 0.0 plus 1.0fil
+...........\glue(\rightskip) 0.0 plus 1.0fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fill
+........\vbox(0.0+0.0)x426.79135
+.........\hbox(0.0+0.0)x426.79135, glue set 213.39568fil
+..........\glue(\leftskip) 0.0 plus 1.0fil
+..........\hbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0
+..........\glue(\rightskip) 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fill
+........\hbox(0.0+0.0)x0.0, glue set - 426.79135fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\vbox(0.0+0.0)x426.79135
+..........\hbox(0.0+0.0)x426.79135, glue set 426.79135fil
+...........\glue(\leftskip) 0.0 plus 1.0fil
+...........\hbox(0.0+0.0)x0.0
+...........\penalty 10000
+...........\glue(\parfillskip) 0.0
+...........\glue(\rightskip) 0.0
+.......\glue 0.0
+.......\rule(0.0+0.0)x426.79135
+.......\glue 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\special{color pop}
 ..\glue 19.8738
 ..\glue(\lineskip) 0.0
@@ -10069,12 +10102,48 @@ C.}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0
 ...\glue 0.0 plus 0.0001fil
-..\glue(\baselineskip) 42.67912
-..\hbox(0.0+0.0)x426.79135
+..\glue(\baselineskip) 28.17242
+..\hbox(14.5067+3.63611)x426.79135
 ...\special{color push gray 0}
-...\hbox(0.0+0.0)x426.79135
+...\hbox(14.5067+3.63611)x426.79135
+....\hbox(14.5067+3.63611)x426.79135
+.....\vbox(14.5067+3.63611)x426.79135
+......\rule(0.0+0.0)x426.79135
+......\glue 6.02255
+......\hbox(8.48415+3.63611)x426.79135
+.......\hbox(0.0+0.0)x0.0, glue set - 426.79135fil
+........\vbox(0.0+0.0)x426.79135
+.........\hbox(0.0+0.0)x426.79135, glue set 213.39568fil
+..........\hbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0 plus 1.0fil
+..........\glue(\rightskip) 0.0 plus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\glue 0.0 plus 1.0fill
+.......\vbox(8.48415+3.63611)x426.79135
+........\hbox(8.48415+3.63611)x426.79135, glue set 210.76083fil
+.........\glue(\leftskip) 0.0 plus 1.0fil
+.........\hbox(0.0+0.0)x0.0
+.........\TU/texgyretermes(0)/m/n/10.53937 7
+.........\kern -0.0002
+.........\kern 0.0002
+.........\rule(8.48415+3.63611)x0.0
+.........\penalty 10000
+.........\glue(\parfillskip) 0.0
+.........\glue(\rightskip) 0.0 plus 1.0fil
+.......\glue 0.0 plus 1.0fill
+.......\hbox(0.0+0.0)x0.0, glue set - 426.79135fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\vbox(0.0+0.0)x426.79135
+.........\hbox(0.0+0.0)x426.79135, glue set 426.79135fil
+..........\glue(\leftskip) 0.0 plus 1.0fil
+..........\hbox(0.0+0.0)x0.0
+..........\penalty 10000
+..........\glue(\parfillskip) 0.0
+..........\glue(\rightskip) 0.0
+....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\special{color pop}
-.\kern -730.09772
+.\kern -733.73383
 .\hbox(0.0+0.0)x0.0
 ..\kern -72.26999
 ..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
@@ -10085,7 +10154,7 @@ C.}
 .....\glue 0.0 plus 1.0fil minus 1.0fil
 ....\glue 0.0 plus 1.0fil minus 1.0fil
 ...\glue 0.0 plus 1.0fil minus 1.0fil
-.\kern 730.09772
+.\kern 733.73383
 .\kern 0.0
 Completed box being shipped out [8]
 \vbox(730.09772+3.63611)x439.87962
