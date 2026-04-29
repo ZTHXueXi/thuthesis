@@ -24,6 +24,7 @@
 - 修正本科生封面“联合指导教师”过窄的问题（[#1017](https://github.com/tuna/thuthesis/issues/1017)）。
 - 本科生的顺序编码制引用中两个连续序号之间使用逗号分割（[#1027](https://github.com/tuna/thuthesis/discussions/1027)）。
 - 修正了调用 `mathtools` 后 `\eqref` 与前文间距的问题（[#1043](https://github.com/tuna/thuthesis/discussions/1043)）。
+- 修正本科生附录的参考文献标题格式（[#1058](https://github.com/tuna/thuthesis/discussions/1058)）。
 
 ## [v7.6.0] - 2025-03-28
 

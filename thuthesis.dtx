@@ -5586,6 +5586,7 @@
     }
   }
 }
+\newcommand\thu@bib@heading[1]{\thu@chapter*{#1}}
 %    \end{macrocode}
 %
 % \subsubsection{BibTeX + \pkg{natbib} 宏包}
@@ -5922,7 +5923,7 @@
 %
 % 复用 \pkg{natbib} 的 \texttt{thebibliography} 环境，调整距离。
 %    \begin{macrocode}
-  \renewcommand\bibsection{\thu@chapter*{\bibname}}
+  \renewcommand\bibsection{\thu@bib@heading{\bibname}}
   \newcommand\thu@set@bibliography@format{%
     \renewcommand\bibfont{\fontsize{10.5bp}{16bp}\selectfont}%
     \setlength{\bibsep}{3bp \@plus 3bp \@minus 3bp}%
@@ -5996,7 +5997,7 @@
     \ifthenelse{\equal{\blx@bbxfile}{mla-new}}{\def\bibname{WORKS CITED}}{}
   }
   \DeclareRobustCommand\inlinecite{\parencite}
-  \defbibheading{bibliography}[\bibname]{\thu@chapter*{\bibname}}
+  \defbibheading{bibliography}[\bibname]{\thu@bib@heading{#1}}
   \newcommand\thu@set@bibliography@format{%
     \renewcommand\bibfont{\fontsize{10.5bp}{16bp}\selectfont}%
     \setlength{\bibitemsep}{3bp \@plus 3bp \@minus 3bp}%
@@ -6129,10 +6130,24 @@
 %
 % 附录中的参考文献等另行编序号。
 %    \begin{macrocode}
+\newcommand\thu@appendix@bib@heading[1]{%
+  \ctexset{section/numbering = false}%
+  \begingroup
+    \ifthu@degree@bachelor
+      \ctexset{section = {
+        format = \centering\fontsize{12bp}{14.4bp}\selectfont,
+        beforeskip = 66bp,
+        afterskip = 4bp,
+      }}%
+    \fi
+    \section{#1}%
+  \endgroup
+  \ctexset{section/numbering = true}%
+}
+\g@addto@macro\appendix{%
+  \let\thu@bib@heading\thu@appendix@bib@heading
+}
 \newcommand\thu@end@appendix@ref@section{}
-%    \end{macrocode}
-%
-%    \begin{macrocode}
 %    \end{macrocode}
 %
 % \pkg{bibunits} 在载入时会保存 \cs{bibliography} 和 \cs{bibliographystyle}，
@@ -6196,21 +6211,14 @@
   \g@addto@macro\appendix{%
     \renewcommand\@bibunitname{\jobname-appendix-\@alph\c@chapter}%
     \bibliographyunit[\chapter]%
-    \renewcommand\bibsection{%
-      \ctexset{section/numbering = false}%
-      \section{\bibname}%
-      \ctexset{section/numbering = true}%
-    }%
 %    \end{macrocode}
 %
 % 研究生附录的引用编号加前缀，如附录 A 的引用 [1] 为 [A.1]。
 %    \begin{macrocode}
-    \ifthu@degree@graduate
-      \renewcommand\citenumfont{\@Alph\c@chapter.}%
-      \renewcommand\@extra@binfo{@-\@alph\c@chapter}%
-      \renewcommand\@extra@b@citeb{@-\@alph\c@chapter}%
-      \renewcommand\bibnumfmt[1]{[\@Alph\c@chapter.#1]\hfill}%
-    \fi
+    \renewcommand\citenumfont{\@Alph\c@chapter.}%
+    \renewcommand\@extra@binfo{@-\@alph\c@chapter}%
+    \renewcommand\@extra@b@citeb{@-\@alph\c@chapter}%
+    \renewcommand\bibnumfmt[1]{[\@Alph\c@chapter.#1]\hfill}%
   }
   \renewcommand\thu@end@appendix@ref@section{%
     \bibliographyunit\relax
@@ -6238,23 +6246,20 @@
   % \let\@xtestdef\@gobbletwo  % This doesn't work
   \def\bibunits@rerun@warning{\relax}
 }
-\PassOptionsToPackage{defernumbers = true}{biblatex}
+\PassOptionsToPackage{defernumbers=true}{biblatex}
 \AtEndOfPackageFile*{biblatex}{
-  \DeclareRefcontext{appendix}{}
+  \DeclareRefcontext{appendix}{labelprefix=\@Alph\c@chapter.}
   \g@addto@macro\appendix{%
-    \pretocmd\chapter{%
+    % 参考 biblatex 的 refsection=chapter 选项实现方式，
+    % 在 \@makechapterhead 和 \@makeschapterhead 进行 patch
+    \pretocmd\@makechapterhead{%
       \newrefsection
-      \ifthu@degree@bachelor\else
-        \@tempcnta=\c@chapter
-        \advance\@tempcnta\@ne
-        \newrefcontext[labelprefix = {\@Alph\@tempcnta.}]{appendix}%
-      \fi
-    }{}{\thu@patch@error{\chapter}}%
-    \defbibheading{bibliography}[\bibname]{%
-      \ctexset{section/numbering = false}%
-      \section{#1}%
-      \ctexset{section/numbering = true}%
-    }%
+      \newrefcontext{appendix}%
+    }{}{\thu@patch@error{\@makechapterhead}}%
+    \pretocmd\@makeschapterhead{%
+      \newrefsection
+      \newrefcontext{appendix}%
+    }{}{\thu@patch@error{\@makeschapterhead}}%
   }
   \renewcommand\thu@set@survey@bibheading{%
     \defbibheading{bibliography}[\bibname]{%

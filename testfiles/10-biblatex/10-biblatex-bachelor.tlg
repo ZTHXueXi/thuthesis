@@ -4485,10 +4485,6 @@ C.}
 ...\glue 0.0 plus 1.0fil minus 1.0fil
 .\kern 730.09772
 .\kern 0.0
-\blx@maxsegment@1=\count...
-\blx@sectionciteorder@1=\count...
-Package biblatex Info: Reference section=1 on input line ....
-Package biblatex Info: Setting label 'refsection:1' on input line ....
 Completed box being shipped out [3]
 \vbox(730.09772+0.0)x439.87962
 .\hbox(0.0+0.0)x0.0
@@ -6598,7 +6594,6 @@ Completed box being shipped out [3]
 ...\write1{\@writefile{lof}{\let\contentsline\ttl@gobblecontents}}
 ...\write1{\@writefile{lot}{\let\contentsline\ttl@gobblecontents}}
 ...\write1{\@writefile{loe}{\let\contentsline\ttl@gobblecontents}}
-...\write1{\newlabel{refsection:1}{{}{\thepage }{}{}{}}}
 ...\glue 0.0 plus 1.0fil
 ...\glue 0.0
 ...\glue 0.0 plus 0.0001fil
@@ -6621,6 +6616,10 @@ Completed box being shipped out [3]
 .\kern 730.09772
 .\kern 0.0
 附录 A
+\blx@maxsegment@1=\count...
+\blx@sectionciteorder@1=\count...
+Package biblatex Info: Reference section=1 on input line ....
+Package biblatex Info: Setting label 'refsection:1' on input line ....
 Completed box being shipped out [4]
 \vbox(730.09772+0.0)x439.87962
 .\hbox(0.0+0.0)x0.0
@@ -6643,10 +6642,11 @@ Completed box being shipped out [4]
 ....\special{color pop}
 ..\glue 19.8738
 ..\glue(\lineskip) 0.0
-..\vbox(674.33032+0.0)x426.79135, glue set 490.83162fil
+..\vbox(674.33032+0.0)x426.79135, glue set 456.30632fil
 ...\write-{}
 ...\write1{\pp@pagectr{footnote}{1}{\theabspage }{\thepage }}
 ...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+...\write1{\newlabel{refsection:1}{{A}{\thepage }{}{chapter.1}{}}}
 ...\glue(\topskip) 12.0
 ...\rule(0.0+0.0)x*
 ...\penalty 10000
@@ -6685,7 +6685,7 @@ Completed box being shipped out [4]
 ...\glue 27.10124 plus -1.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\hbox(10.92532+2.21626)x426.79135, glue set 211.97488fil
+...\hbox(10.92532+2.21626)x426.79135, glue set 194.41327fil
 ....\hbox(0.0+0.0)x24.09
 ....\TU/FandolSong(0)/m/n/12.045 附
 ....\glue 0.0 plus 0.52307
@@ -6719,12 +6719,18 @@ Completed box being shipped out [4]
 ....\penalty 10000
 ....\glue 0.0
 ....\mathon
-....\hbox(6.10681+1.40926)x17.80847, shifted -4.81851
+....\hbox(6.10681+1.40926)x35.37009, shifted -4.81851
 .....\hbox(5.98035+1.40926)x3.00824
 ......\TU/texgyretermes(0)/m/n/9.03375 [
+.....\TU/texgyretermes(0)/m/n/9.03375 A.
+.....\kern -0.0002
+.....\kern 0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 1
 .....\kern -0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 ,
+.....\kern -0.0002
+.....\kern 0.0002
+.....\TU/texgyretermes(0)/m/n/9.03375 A.
 .....\kern -0.0002
 .....\kern 0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 2
@@ -6747,41 +6753,45 @@ Completed box being shipped out [4]
 ....\glue(\parfillskip) 0.0 plus 1.0fil
 ....\glue(\rightskip) 0.0
 ...\penalty -300
-...\glue 24.09
+...\glue 66.2475
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 6.82753
-...\hbox(11.0312+2.64185)x426.79135, glue set 370.58139fil
+...\glue(\baselineskip) 2.90285
+...\hbox(9.33487+2.1199)x426.79135, glue set 189.30568fil
+....\glue(\leftskip) 0.0 plus 1.0fil
 ....\hbox(0.0+0.0)x0.0
-....\TU/FandolHei(0)/m/n/14.05249 参
-....\glue 0.0 plus 0.68819
-....\TU/FandolHei(0)/m/n/14.05249 考
-....\glue 0.0 plus 0.68819
-....\TU/FandolHei(0)/m/n/14.05249 文
-....\glue 0.0 plus 0.68819
-....\TU/FandolHei(0)/m/n/14.05249 献
+....\TU/FandolSong(0)/m/n/12.045 参
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 考
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 文
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 献
 ....\kern -0.00017
 ....\kern 0.00017
 ....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
 ...\write1{\@writefile{toc}{\protect \contentsline {section}{参考文献}{\thepage \ET
 C.}
 ...\penalty 10000
-...\glue 6.02249
+...\glue 4.015
 ...\glue(\parskip) 0.0
 ...\glue(\parskip) 0.0
-...\glue(\baselineskip) 5.12367
+...\glue(\baselineskip) 5.64561
 ...\hbox(8.29448+1.94977)x389.18405, glue set 0.44379, shifted 37.6073
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
 .....\glue -25.6073
 .....\glue -12.0
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\hbox(7.12462+1.64412)x25.6073, glue set 3.07413fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(6.97707+1.64412)x3.50961
 .......\TU/texgyretermes(0)/m/n/10.53937 [
+......\TU/texgyretermes(0)/m/n/10.53937 A.
+......\kern -0.0002
+......\kern 0.0002
 ......\TU/texgyretermes(0)/m/n/10.53937 1
 ......\kern -0.0002
 ......\kern 0.0002
@@ -6920,11 +6930,14 @@ C.}
 .....\glue 0.0
 .....\glue -25.6073
 .....\glue -12.0
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\hbox(7.12462+1.64412)x25.6073, glue set 3.07413fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(6.97707+1.64412)x3.50961
 .......\TU/texgyretermes(0)/m/n/10.53937 [
+......\TU/texgyretermes(0)/m/n/10.53937 A.
+......\kern -0.0002
+......\kern 0.0002
 ......\TU/texgyretermes(0)/m/n/10.53937 2
 ......\kern -0.0002
 ......\kern 0.0002
