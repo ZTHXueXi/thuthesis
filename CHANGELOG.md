@@ -16,6 +16,7 @@
 - 使用“学科”作为 PDF 文档属性的“主题”（[#1025](https://github.com/tuna/thuthesis/issues/1025)）。
 - 中文著者-出版年制引用标注的括号改为全角（[#1054](https://github.com/tuna/thuthesis/issues/1054)）。
 - 声明页改为默认带页眉页脚（[#1056](https://github.com/tuna/thuthesis/pull/1056)）。
+- 著者-出版年制参考文献表的悬挂缩进改为 2 em。
 
 ## Deprecated
 
