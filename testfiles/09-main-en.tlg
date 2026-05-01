@@ -3722,9 +3722,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+1.64412)x398.33861, glue set 24.76723fil, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -3733,7 +3733,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Lin
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -3769,9 +3769,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set 1.50543, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -3780,7 +3780,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Nath
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4027,9 +4027,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set - 0.13377, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -4038,7 +4038,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Gao
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4274,9 +4274,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+1.64412)x398.33861, glue set 0.72887, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -4285,7 +4285,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Jha
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4363,9 +4363,9 @@ Completed box being shipped out [3]
 ...\hbox(7.25108+2.29756)x398.33861, glue set 0.6556, shifted 28.45274
 ....\hbox(7.25108+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.25108+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.25108+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -4374,7 +4374,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Koechling
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4444,9 +4444,9 @@ Completed box being shipped out [3]
 ...\hbox(7.20892+2.29756)x398.33861, glue set 2.06032, shifted 28.45274
 ....\hbox(7.20892+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.20892+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.20892+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -4455,7 +4455,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 U.S.
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4728,9 +4728,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set - 0.4677, shifted 28.45274
 ....\hbox(6.97707+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(6.97707+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(6.97707+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -4739,7 +4739,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 U.S.
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4997,9 +4997,9 @@ Completed box being shipped out [3]
 ...\hbox(7.25108+2.28703)x398.33861, glue set - 0.84636, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -5008,7 +5008,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Rowland
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -5463,9 +5463,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set 0.18684, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 13.31839fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -5474,7 +5474,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 U.S.
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -5614,9 +5614,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set - 0.00256, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 8.0487fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 10.89415fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -5625,7 +5625,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 U.S.
 ....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -5877,9 +5877,9 @@ Completed box being shipped out [3]
 ...\hbox(7.1984+2.29756)x398.33861, glue set - 0.88947, shifted 28.45274
 ....\hbox(7.12462+1.64412)x0.0
 .....\glue 0.0
-.....\glue -25.6073
-.....\glue -2.84544
-.....\hbox(7.12462+1.64412)x25.6073, glue set 8.0487fill
+.....\glue -28.45274
+.....\glue 0.0
+.....\hbox(7.12462+1.64412)x28.45274, glue set 10.89415fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
@@ -5888,7 +5888,7 @@ Completed box being shipped out [3]
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
 ......\special{color pop}
-.....\glue 2.84544
+.....\glue 0.0
 ....\penalty 0
 ....\TU/texgyretermes(0)/m/n/10.53937 Environment
 ....\glue 2.63484 plus 1.31741 minus 0.87828

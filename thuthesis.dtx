@@ -5929,10 +5929,9 @@
     % \settowidth\labelwidth{\@biblabel{#1}}%
     % \setlength{\leftmargin}{\labelwidth}%
     % \addtolength{\leftmargin}{\labelsep}%
-    \setlength{\leftmargin}{1cm}%
-    \setlength{\itemindent}{\z@}%
-    \setlength{\labelsep}{0.1cm}%
-    \setlength{\labelwidth}{0.9cm}%
+    \setlength{\labelwidth}{1cm}%
+    \setlength{\leftmargin}{\labelwidth}%
+    \setlength{\labelsep}{\z@}%
     \setlength{\itemsep}{\bibsep}%
     \setlength{\parsep}{\z@}%
     \ifNAT@openbib
@@ -5960,6 +5959,8 @@
   \newcommand\thu@set@bibliography@format{%
     \renewcommand\bibfont{\fontsize{10.5bp}{16bp}\selectfont}%
     \setlength{\bibitemsep}{3bp \@plus 3bp \@minus 3bp}%
+    % 在 .bbx 中设置 \labelwidth 为 1 cm，\labelsep 为 0 pt。
+    \setlength{\biblabelsep}{0pt}%
     \ifthu@degree@bachelor
       \ifthu@main@language@chinese
         \setlength{\bibhang}{1cm}%
@@ -5969,7 +5970,6 @@
         \setlength{\bibhang}{0.5in}%
       \fi
     \else
-      \setlength{\biblabelsep}{0.1cm}%
       \setlength{\bibhang}{1cm}%
     \fi
   }

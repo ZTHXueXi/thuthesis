@@ -4394,9 +4394,9 @@ Completed box being shipped out [3]
 ....\hbox(7.1984+1.64412)x398.33861, glue set 24.76723fil, shifted 28.45274
 .....\hbox(6.97707+1.64412)x0.0
 ......\glue 0.0
-......\glue -25.6073
-......\glue -2.84544
-......\hbox(6.97707+1.64412)x25.6073, glue set 18.58807fill
+......\glue -28.45274
+......\glue 0.0
+......\hbox(6.97707+1.64412)x28.45274, glue set 21.43352fill
 .......\special{color push gray 0}
 .......\glue 0.0 plus 1.0fil
 .......\glue 0.0 plus 1.0fil
@@ -4410,7 +4410,7 @@ Completed box being shipped out [3]
 .......\kern 0.0002
 .......\glue 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue 2.84544
+......\glue 0.0
 .....\penalty 0
 .....\TU/texgyretermes(0)/m/n/10.53937 Lin
 .....\glue 2.63484 plus 1.31741 minus 0.87828
