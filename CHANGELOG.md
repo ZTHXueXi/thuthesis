@@ -17,6 +17,10 @@
 - 中文著者-出版年制引用标注的括号改为全角（[#1054](https://github.com/tuna/thuthesis/issues/1054)）。
 - 声明页改为默认带页眉页脚（[#1056](https://github.com/tuna/thuthesis/pull/1056)）。
 
+## Deprecated
+
+- 本科生的外文资料的调研报告（`survey`）和书面翻译（`translation`）已过时（2026-04 教务处更新）。
+
 ### Fixed
 
 - 改进声明页的排版，与 Word 模板一致（[#1011](https://github.com/tuna/thuthesis/issues/1011)）。
