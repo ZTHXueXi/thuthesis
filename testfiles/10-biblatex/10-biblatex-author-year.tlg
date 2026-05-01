@@ -901,6 +901,10 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[FandolHei-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+\blx@maxsegment@1=\count...
+\blx@sectionciteorder@1=\count...
+Package biblatex Info: Reference section=1 on input line ....
+Package biblatex Info: Setting label 'refsection:1' on input line ....
 Completed box being shipped out [2]
 \vbox(710.18088+0.0)x439.87962
 .\hbox(0.0+0.0)x0.0
@@ -1699,6 +1703,379 @@ C.}
 ...\glue(\baselineskip) 6.51135
 ...\hbox(7.25108+0.14754)x398.33861, glue set 379.89491fil, shifted 28.45274
 ....\TU/texgyretermes(0)/m/n/10.53937 560
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 0.0
+...\write1{\ttl@writefile{toc}{\protect \setcounter {tocdepth}{0}}}
+...\write1{\@writefile{lof}{\let\contentsline\ttl@gobblecontents}}
+...\write1{\@writefile{lot}{\let\contentsline\ttl@gobblecontents}}
+...\write1{\@writefile{loe}{\let\contentsline\ttl@gobblecontents}}
+...\write1{\newlabel{refsection:1}{{}{\thepage }{}{}{}}}
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 22.76228
+..\hbox(0.0+0.0)x426.79135
+...\special{color push gray 0}
+...\hbox(0.0+0.0)x426.79135
+...\special{color pop}
+.\kern -710.18088
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\kern 710.18088
+.\kern 0.0
+附录 A
+Completed box being shipped out [3]
+\vbox(710.18088+0.0)x439.87962
+.\hbox(0.0+0.0)x0.0
+..\kern -72.26999
+..\vbox(0.0+0.0)x0.0, glue set 72.26999fil
+...\kern -72.26999
+...\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0, shifted 845.04684
+.....\kern 0.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\glue 0.0 plus 1.0fil minus 1.0fil
+...\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue -72.26997
+.\vbox(782.45085+0.0)x426.79135, shifted 13.08827
+..\vbox(76.82234+0.0)x426.79135, glue set 76.82234fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x426.79135
+....\special{color push gray 0}
+....\hbox(0.0+0.0)x426.79135
+....\special{color pop}
+..\glue 8.5359
+..\glue(\lineskip) 0.0
+..\vbox(674.33032+0.0)x426.79135, glue set 507.78917fil
+...\write-{}
+...\write1{\pp@pagectr{footnote}{1}{\theabspage }{\thepage }}
+...\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
+...\marks1{\__mark_value:nn {1}{附录 A\hskip 1em\relax 附录标题}}
+...\marks2{\__mark_value:nn {2}{}}
+...\glue(\topskip) 12.0
+...\rule(0.0+0.0)x*
+...\penalty 10000
+...\glue 15.10124 plus -1.0
+...\glue 0.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\hbox(12.23772+2.79442)x426.79135, glue set 149.59734fil
+....\glue(\leftskip) 0.0 plus 1.0fil
+....\TU/FandolHei(0)/m/n/16.06 附
+....\glue 0.0 plus 1.0538
+....\TU/FandolHei(0)/m/n/16.06 录
+....\kern -0.00018
+....\kern 0.00018
+....\glue 4.46468 plus 2.23233 minus 1.48822
+....\TU/texgyreheros(0)/m/n/16.06 A
+....\kern -0.0002
+....\kern 0.0002
+....\glue 16.06
+....\TU/FandolHei(0)/m/n/16.06 附
+....\glue 0.0 plus 1.0538
+....\TU/FandolHei(0)/m/n/16.06 录
+....\glue 0.0 plus 1.0538
+....\TU/FandolHei(0)/m/n/16.06 标
+....\glue 0.0 plus 1.0538
+....\TU/FandolHei(0)/m/n/16.06 题
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0
+....\glue(\rightskip) 0.0 plus 1.0fil
+...\penalty 10000
+...\glue 27.10124 plus -1.0
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\hbox(9.636+2.40898)x426.79135, glue set 56.8478fil
+....\hbox(0.0+0.0)x24.09
+....\TU/FandolSong(0)/m/n/12.045 附
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 录
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 中
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 的
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 参
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 考
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 文
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 献
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 等
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 另
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 行
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 编
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 序
+....\glue 0.0 plus 0.52307
+....\TU/FandolSong(0)/m/n/12.045 号
+....\glue 0.0 plus 0.52307
+....\glue 7.63654 minus 6.0225
+....\rule(0.0+0.0)x-7.63654
+....\TU/FandolSong(0)/m/n/12.045 （
+....\kern 0.00009
+....\kern -0.00009
+....\kern -0.99622
+....\kern 0.99622
+....\penalty 10000
+....\glue 0.0
+....\write1{\abx@aux@page{33}{\the \c@page }}
+....\TU/texgyretermes(0)/m/n/12.045 Baker
+....\kern -0.0002
+....\kern 0.0002
+....\glue 3.01125 plus 1.50562 minus 1.00374
+....\TU/texgyretermes(0)/m/n/12.045 et
+....\glue 3.01125 plus 1.50562 minus 1.00374
+....\TU/texgyretermes(0)/m/n/12.045 al
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/12.045 .
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/12.045 ,
+....\glue 3.01125 plus 1.88202 minus 0.80298
+....\TU/texgyretermes(0)/m/n/12.045 1995
+....\kern -0.0002
+....\kern 0.0002
+....\write1{\abx@aux@page{34}{\the \c@page }}
+....\penalty 10000
+....\TU/FandolSong(0)/m/n/12.045 ；
+....\rule(0.0+0.0)x-8.32309
+....\kern 0.0005
+....\kern -0.0005
+....\kern -0.9965
+....\kern 0.9965
+....\glue 8.32309 minus 6.02249
+....\TU/texgyretermes(0)/m/n/12.045 Crane
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/12.045 ,
+....\glue 3.01125 plus 1.88202 minus 0.80298
+....\TU/texgyretermes(0)/m/n/12.045 1972
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\TU/FandolSong(0)/m/n/12.045 ）
+....\rule(0.0+0.0)x-7.63654
+....\kern 0.00047
+....\kern -0.00047
+....\kern -0.99623
+....\kern 0.99623
+....\penalty 10000
+....\glue 0.0
+....\mathon
+....\hbox(0.0+0.0)x0.5, shifted -4.81851
+....\mathoff
+....\penalty 10000
+....\TU/FandolSong(0)/m/n/12.045 。
+....\rule(0.0+0.0)x-7.75697
+....\kern 0.00047
+....\kern -0.00047
+....\kern -0.18753
+....\kern 0.18753
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -300
+...\glue 24.09
+...\glue(\parskip) 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.63481
+...\hbox(11.0312+2.64185)x426.79135, glue set 370.58139fil
+....\hbox(0.0+0.0)x0.0
+....\TU/FandolHei(0)/m/n/14.05249 参
+....\glue 0.0 plus 0.68819
+....\TU/FandolHei(0)/m/n/14.05249 考
+....\glue 0.0 plus 0.68819
+....\TU/FandolHei(0)/m/n/14.05249 文
+....\glue 0.0 plus 0.68819
+....\TU/FandolHei(0)/m/n/14.05249 献
+....\kern -0.00017
+....\kern 0.00017
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\write1{\@writefile{toc}{\protect \contentsline {section}{参考文献}{\thepage \ET
+C.}
+...\penalty 10000
+...\glue 6.02249
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.16707
+...\hbox(7.25108+2.29756)x398.33861, glue set 4.06859fil, shifted 28.45274
+....\hbox(0.0+0.0)x-28.45274
+.....\glue -28.45274
+.....\glue -24.0
+.....\glue -6.0
+.....\hbox(0.0+0.0)x24.0, glue set 24.0fil
+......\special{color push gray 0}
+......\glue 0.0 plus 1.0fil
+......\special{color pop}
+.....\glue 6.0
+....\penalty 0
+....\write1{\abx@aux@page{35}{\the \c@page }}
+....\TU/texgyretermes(0)/m/n/10.53937 Baker
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 25
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 S
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 K
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 ,
+....\kern -0.0002
+....\kern 0.0002
+....\glue 2.63484 plus 1.32137 minus 0.87564
+....\TU/texgyretermes(0)/m/n/10.53937 Jackson
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 25
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 M
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 E
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 ,
+....\glue 2.63484 plus 1.32137 minus 0.87564
+....\TU/texgyretermes(0)/m/n/10.53937 1995
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\glue 2.63484 plus 1.32532 minus 0.87303
+....\TU/texgyretermes(0)/m/n/10.53937 The
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Future
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 of
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Resource
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Sharing
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 0
+....\hbox(6.97707+1.64412)x3.50961
+.....\TU/texgyretermes(0)/m/n/10.53937 [
+....\penalty 10000
+....\TU/texgyretermes(0)/m/n/10.53937 M
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\hbox(6.97707+1.64412)x3.50961
+.....\TU/texgyretermes(0)/m/n/10.53937 ]
+.....\kern -0.0002
+.....\kern 0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\kern -0.0002
+....\kern 0.0002
+....\glue 2.63484 plus 1.32532 minus 0.87303
+....\TU/texgyretermes(0)/m/n/10.53937 New
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 York
+....\kern -0.0002
+....\kern 0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 :
+....\glue 2.63484 plus 1.32399 minus 0.8739
+....\TU/texgyretermes(0)/m/n/10.53937 The
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Haworth
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Press
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 3.01125 plus 3.01125 minus 3.01125
+...\glue(\parskip) 0.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.56404
+...\hbox(7.1984+2.29756)x398.33861, glue set 126.37778fil, shifted 28.45274
+....\hbox(0.0+0.0)x-28.45274
+.....\glue -28.45274
+.....\glue -24.0
+.....\glue -6.0
+.....\hbox(0.0+0.0)x24.0, glue set 24.0fil
+......\special{color push gray 0}
+......\glue 0.0 plus 1.0fil
+......\special{color pop}
+.....\glue 6.0
+....\penalty 0
+....\write1{\abx@aux@page{36}{\the \c@page }}
+....\TU/texgyretermes(0)/m/n/10.53937 Crane
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 25
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 D
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 ,
+....\glue 2.63484 plus 1.32137 minus 0.87564
+....\TU/texgyretermes(0)/m/n/10.53937 1972
+....\kern -0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\glue 2.63484 plus 1.32532 minus 0.87303
+....\TU/texgyretermes(0)/m/n/10.53937 Invisible
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 College
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 0
+....\hbox(6.97707+1.64412)x3.50961
+.....\TU/texgyretermes(0)/m/n/10.53937 [
+....\penalty 10000
+....\TU/texgyretermes(0)/m/n/10.53937 M
+....\kern -0.0002
+....\kern 0.0002
+....\penalty 10000
+....\hbox(6.97707+1.64412)x3.50961
+.....\TU/texgyretermes(0)/m/n/10.53937 ]
+.....\kern -0.0002
+.....\kern 0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 .
+....\kern -0.0002
+....\kern 0.0002
+....\glue 2.63484 plus 1.32532 minus 0.87303
+....\TU/texgyretermes(0)/m/n/10.53937 Chicago
+....\kern -0.0002
+....\kern 0.0002
+....\TU/texgyretermes(0)/m/n/10.53937 :
+....\glue 2.63484 plus 1.32399 minus 0.8739
+....\TU/texgyretermes(0)/m/n/10.53937 Univ.
+....\glue 2.63484 plus 1.32532 minus 0.87303
+....\TU/texgyretermes(0)/m/n/10.53937 of
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Chicago
+....\glue 2.63484 plus 1.31741 minus 0.87828
+....\TU/texgyretermes(0)/m/n/10.53937 Press
 ....\kern -0.0002
 ....\TU/texgyretermes(0)/m/n/10.53937 .
 ....\kern -0.0002
