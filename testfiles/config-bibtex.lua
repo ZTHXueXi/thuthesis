@@ -14,7 +14,7 @@ function runtest_tasks(name, run)
       local base_name = jobname(aux_file)
       table.insert(commands, "bibtex -terse " .. base_name)
     end
-    local command = table.concat(commands, "; ")
+    local command = table.concat(commands, os_concat)
     -- io.stderr:write(command .. "\n")
     return command
   else
