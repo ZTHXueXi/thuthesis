@@ -6769,7 +6769,7 @@ Completed box being shipped out [4]
 ...\glue 27.10124 plus -1.0
 ...\glue(\parskip) 0.0 plus 1.0
 ...\glue(\parskip) 0.0
-...\hbox(10.92532+2.21626)x426.79135, glue set 194.41327fil
+...\hbox(10.92532+2.21626)x426.79135, glue set 211.97488fil
 ....\hbox(0.0+0.0)x24.09
 ....\TU/FandolSong(0)/m/n/12.045 附
 ....\glue 0.0 plus 0.52307
@@ -6803,18 +6803,12 @@ Completed box being shipped out [4]
 ....\penalty 10000
 ....\glue 0.0
 ....\mathon
-....\hbox(6.10681+1.40926)x35.37009, shifted -4.81851
+....\hbox(6.10681+1.40926)x17.80847, shifted -4.81851
 .....\hbox(5.98035+1.40926)x3.00824
 ......\TU/texgyretermes(0)/m/n/9.03375 [
-.....\TU/texgyretermes(0)/m/n/9.03375 A.
-.....\kern -0.0002
-.....\kern 0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 1
 .....\kern -0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 ,
-.....\kern -0.0002
-.....\kern 0.0002
-.....\TU/texgyretermes(0)/m/n/9.03375 A.
 .....\kern -0.0002
 .....\kern 0.0002
 .....\TU/texgyretermes(0)/m/n/9.03375 2
@@ -6868,14 +6862,11 @@ C.}
 .....\glue 0.0
 .....\glue -28.45274
 .....\glue 0.0
-.....\hbox(7.12462+1.64412)x28.45274, glue set 5.91957fill
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(6.97707+1.64412)x3.50961
 .......\TU/texgyretermes(0)/m/n/10.53937 [
-......\TU/texgyretermes(0)/m/n/10.53937 A.
-......\kern -0.0002
-......\kern 0.0002
 ......\TU/texgyretermes(0)/m/n/10.53937 1
 ......\kern -0.0002
 ......\kern 0.0002
@@ -7014,14 +7005,11 @@ C.}
 .....\glue 0.0
 .....\glue -28.45274
 .....\glue 0.0
-.....\hbox(7.12462+1.64412)x28.45274, glue set 5.91957fill
+.....\hbox(7.12462+1.64412)x28.45274, glue set 16.16383fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil minus 1.0fil
 ......\hbox(6.97707+1.64412)x3.50961
 .......\TU/texgyretermes(0)/m/n/10.53937 [
-......\TU/texgyretermes(0)/m/n/10.53937 A.
-......\kern -0.0002
-......\kern 0.0002
 ......\TU/texgyretermes(0)/m/n/10.53937 2
 ......\kern -0.0002
 ......\kern 0.0002

@@ -6174,10 +6174,12 @@
 %
 % 研究生附录的引用编号加前缀，如附录 A 的引用 [1] 为 [A.1]。
 %    \begin{macrocode}
-    \renewcommand\citenumfont{\@Alph\c@chapter.}%
     \renewcommand\@extra@binfo{@-\@alph\c@chapter}%
     \renewcommand\@extra@b@citeb{@-\@alph\c@chapter}%
-    \renewcommand\bibnumfmt[1]{[\@Alph\c@chapter.#1]\hfill}%
+    \ifthu@degree@bachelor\else
+      \renewcommand\citenumfont{\@Alph\c@chapter.}%
+      \renewcommand\bibnumfmt[1]{[\@Alph\c@chapter.#1]\hfill}%
+    \fi
   }
   \renewcommand\thu@end@appendix@ref@section{%
     \bibliographyunit\relax
@@ -6198,11 +6200,15 @@
     % 在 \@makechapterhead 和 \@makeschapterhead 进行 patch
     \pretocmd\@makechapterhead{%
       \newrefsection
-      \newrefcontext{appendix}%
+      \ifthu@degree@bachelor\else
+        \newrefcontext{appendix}%
+      \fi
     }{}{\thu@patch@error{\@makechapterhead}}%
     \pretocmd\@makeschapterhead{%
       \newrefsection
-      \newrefcontext{appendix}%
+      \ifthu@degree@bachelor\else
+        \newrefcontext{appendix}%
+      \fi
     }{}{\thu@patch@error{\@makeschapterhead}}%
   }
   \def\bibliographystyle#1{%
