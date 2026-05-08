@@ -9369,15 +9369,15 @@ C.}
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 5.5086
 ...\hbox(8.43149+2.10786)x398.33861, glue set 0.13617, shifted 28.45274
-....\hbox(7.10353+1.64412)x0.0
+....\hbox(6.97707+1.64412)x0.0
 .....\glue 0.0
 .....\glue -28.45274
 .....\glue 0.0
-.....\hbox(7.10353+1.64412)x28.45274, glue set 11.18925fill
+.....\hbox(6.97707+1.64412)x28.45274, glue set 21.43352fill
 ......\special{color push gray 0}
 ......\glue 0.0 plus 1.0fil
 ......\glue 0.0 plus 1.0fil
-......\TU/texgyretermes(0)/m/n/10.53937 [A.]
+......\TU/texgyretermes(0)/m/n/10.53937 []
 ......\kern -0.0002
 ......\kern 0.0002
 ......\glue 0.0 plus 1.0fill
