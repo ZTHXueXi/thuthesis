@@ -6,9 +6,17 @@
 
 ## [Unreleased]
 
+本次模板更新包含了对教务处 2026 年 4 月更新的本科生综合论文训练写作指南（[#1059](https://github.com/tuna/thuthesis/pull/1059)）的适配。
+
 ### Added
 
-- 添加苏世民学院格式（[#1037](https://github.com/tuna/thuthesis/discussions/1037)）。。
+- 添加多个格式控制选项，并在此基础上支持苏世民学院的格式变体（[#1038](https://github.com/tuna/thuthesis/pull/1038)）。增加的选项包括（加粗为默认值）：
+  - `footnote-style`: **`circled`** / `plain`
+  - `figure-numbering`: **`chapter`** / `global`
+  - `table-numbering`: **`chapter`** / `global`
+  - `equation-numbering`: **`chapter`** / `global`
+  - `footnote-numbering`: **`page`** / `chapter` / `global`（只能在 `\documentclass` 中使用）
+  - `style-override`: **`none`** / `schwarzman`（只能在 `\documentclass` 中使用）
 
 ### Changed
 
@@ -20,7 +28,7 @@
 
 ### Deprecated
 
-- 本科生的外文资料的调研报告（`survey`）和书面翻译（`translation`）已过时（2026-04 教务处更新）。
+- 外文资料的调研报告（`survey`）和书面翻译（`translation`）环境已被弃用。
 
 ### Fixed
 
