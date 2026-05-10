@@ -16,6 +16,11 @@
 - 使用“学科”作为 PDF 文档属性的“主题”（[#1025](https://github.com/tuna/thuthesis/issues/1025)）。
 - 中文著者-出版年制引用标注的括号改为全角（[#1054](https://github.com/tuna/thuthesis/issues/1054)）。
 - 声明页改为默认带页眉页脚（[#1056](https://github.com/tuna/thuthesis/pull/1056)）。
+- 著者-出版年制参考文献表的悬挂缩进改为 2 em。
+
+### Deprecated
+
+- 本科生的外文资料的调研报告（`survey`）和书面翻译（`translation`）已过时（2026-04 教务处更新）。
 
 ### Fixed
 
@@ -24,6 +29,9 @@
 - 修正本科生封面“联合指导教师”过窄的问题（[#1017](https://github.com/tuna/thuthesis/issues/1017)）。
 - 本科生的顺序编码制引用中两个连续序号之间使用逗号分割（[#1027](https://github.com/tuna/thuthesis/discussions/1027)）。
 - 修正了调用 `mathtools` 后 `\eqref` 与前文间距的问题（[#1043](https://github.com/tuna/thuthesis/discussions/1043)）。
+- 修正本科生附录的参考文献标题格式（[#1058](https://github.com/tuna/thuthesis/issues/1058)）。
+- 修正本科生 `biblatex` 顺序编码制参考文献表的悬挂缩进为 1cm。
+- 修正 `biblatex` 的 `\citet` 错误的上标（[#1032](https://github.com/tuna/thuthesis/issues/1032)）。
 
 ## [v7.6.0] - 2025-03-28
 

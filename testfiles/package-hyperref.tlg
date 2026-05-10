@@ -3165,6 +3165,7 @@ Completed box being shipped out [1]
 ........\special{pdf:dest (equation.0.1) [@thispage /XYZ @xpos @ypos null]}
 ........\penalty 10000
 .......\mathoff
+......\kern 0.0
 ......\hbox(0.0+0.0)x0.0
 ......\TU/XITSMath-Regular(1)/m/n/12.045 glyph#2507
 ......\kern1.4454
@@ -4393,9 +4394,9 @@ Completed box being shipped out [3]
 ....\hbox(7.1984+1.64412)x398.33861, glue set 24.76723fil, shifted 28.45274
 .....\hbox(6.97707+1.64412)x0.0
 ......\glue 0.0
-......\glue -25.6073
-......\glue -2.84544
-......\hbox(6.97707+1.64412)x25.6073, glue set 18.58807fill
+......\glue -28.45274
+......\glue 0.0
+......\hbox(6.97707+1.64412)x28.45274, glue set 21.43352fill
 .......\special{color push gray 0}
 .......\glue 0.0 plus 1.0fil
 .......\glue 0.0 plus 1.0fil
@@ -4409,7 +4410,7 @@ Completed box being shipped out [3]
 .......\kern 0.0002
 .......\glue 0.0 plus 1.0fill
 .......\special{color pop}
-......\glue 2.84544
+......\glue 0.0
 .....\penalty 0
 .....\TU/texgyretermes(0)/m/n/10.53937 Lin
 .....\glue 2.63484 plus 1.31741 minus 0.87828
@@ -4588,8 +4589,8 @@ Completed box being shipped out [4]
 ...\vbox(674.33032+0.0)x426.79135, glue set 7.58475fil
 ....\write-{}
 ....\write1{\pp@pagectr{footnote}{2}{\theabspage }{\thepage }}
-....\special{pdf:dest (appendix.A) [@thispage /XYZ @xpos @ypos null]}
-....\write4{\protect \BOOKMARK [0][]{appendix.A}{\376\377\000A\000p\000p\000e\000\ETC.}
+....\special{pdf:dest (chapter.A) [@thispage /XYZ @xpos @ypos null]}
+....\write4{\protect \BOOKMARK [0][]{chapter.A}{\376\377\000A\000p\000p\000e\000n\ETC.}
 ....\write1{\@writefile{toc}{\protect \contentsline {chapter}{\protect \numberline \ETC.}
 ....\marks1{\__mark_value:nn {22}{Appendix A Title}}
 ....\marks2{\__mark_value:nn {23}{}}
@@ -4830,6 +4831,7 @@ Completed box being shipped out [4]
 ........\special{pdf:dest (equation.A.1) [@thispage /XYZ @xpos @ypos null]}
 ........\penalty 10000
 .......\mathoff
+......\kern 0.0
 ......\hbox(0.0+0.0)x0.0
 ......\TU/XITSMath-Regular(1)/m/n/12.045 glyph#2507
 ......\kern1.4454
