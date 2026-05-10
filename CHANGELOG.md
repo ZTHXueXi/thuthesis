@@ -6,6 +6,8 @@
 
 ## [Unreleased]
 
+## [v7.7.0] - 2026-05-10
+
 本次模板更新包含了对教务处 2026 年 4 月更新的本科生综合论文训练写作指南（[#1059](https://github.com/tuna/thuthesis/pull/1059)）的适配。
 
 ### Added
@@ -1067,7 +1069,8 @@
 
 
 
-[Unreleased]: https://github.com/tuna/thuthesis/compare/v7.6.0...HEAD
+[Unreleased]: https://github.com/tuna/thuthesis/compare/v7.7.0...HEAD
+[v7.7.0]:     https://github.com/tuna/thuthesis/compare/v7.6.0...v7.7.0
 [v7.6.0]:     https://github.com/tuna/thuthesis/compare/v7.5.2...v7.6.0
 [v7.5.2]:     https://github.com/tuna/thuthesis/compare/v7.5.1...v7.5.2
 [v7.5.1]:     https://github.com/tuna/thuthesis/compare/v7.5.0...v7.5.1
