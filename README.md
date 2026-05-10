@@ -1,11 +1,10 @@
-[![Actions Status](https://github.com/tuna/thuthesis/workflows/Test/badge.svg)](https://github.com/tuna/thuthesis/actions)
+# ThuThesis
+
+[![GitHub Actions](https://github.com/tuna/thuthesis/actions/workflows/test.yml/badge.svg)](https://github.com/tuna/thuthesis/actions/workflows/test.yml)
 [![GitHub downloads](https://img.shields.io/github/downloads/tuna/thuthesis/total)](https://github.com/tuna/thuthesis/releases)
 [![GitHub commits](https://img.shields.io/github/commits-since/tuna/thuthesis/latest)](https://github.com/tuna/thuthesis/commits/master)
 [![GitHub release](https://img.shields.io/github/v/release/tuna/thuthesis)](https://github.com/tuna/thuthesis/releases/latest)
 [![CTAN](https://img.shields.io/ctan/v/thuthesis)](https://www.ctan.org/pkg/thuthesis)
-
-
-# ThuThesis
 
 > Scroll down for the English version of README.
 
@@ -19,8 +18,8 @@
 
 本项目采用 [LaTeX项目公共许可证 v1.3c](https://www.latex-project.org/lppl/lppl-1-3c/) 授权，任何违反该许可证使用 ThuThesis 的行为将被记录在 [耻辱柱](https://github.com/tuna/thuthesis/issues/754) 页面中，以示警告。
 
-本项目分发的 `thu-fig-logo.pdf` 与 `thu-text-logo.pdf` 为载有清华大学校徽与校名的图形文件，用于制作制作本科生综合论文训练封面。这些图形从 [清华大学视觉形象系统](https://vi.tsinghua.edu.cn/) 获取，除裁剪周边空白外，项目维护者未进行任何其他修改。
-请注意：相关图形与文字都是清华大学的注册商标，除此模板外，请勿用于任何其他用途。
+本项目分发的 `thu-fig-logo.pdf` 与 `thu-text-logo.pdf` 为载有清华大学校徽与校名的图形文件，用于制作本科生综合论文训练封面。这些图形从 [清华大学视觉形象系统](https://vi.tsinghua.edu.cn/) 获取，除裁剪周边空白外，项目维护者未进行任何其他修改。
+请注意：相关图形与文字均是清华大学的注册商标，除此模板外，请勿用于任何其他用途。
 
 ## 下载
 
@@ -83,7 +82,7 @@
 ## Makefile的用法
 
 ```shell
-make [{thesis|doc|clean|cleanall|distclean}]
+make [{all|thesis|doc|clean|cleanall|distclean}]
 ```
 
 ### 目标
@@ -99,7 +98,7 @@ make [{thesis|doc|clean|cleanall|distclean}]
 
 **ThuThesis** is an abbreviation of **T**sing**h**ua **U**niversity **Thesis** LaTeX Template.
 
-This package establishes a simple and easy-to-use LaTeX template for Tsinghua dissertations, including general undergraduate research papers, masters theses, doctoral dissertations, and postdoctoral reports. An English translation of this README follows the Chinese below.
+This package establishes a simple and easy-to-use LaTeX template for Tsinghua dissertations, including general undergraduate research papers, master's theses, doctoral dissertations, and postdoctoral reports.
 
 **This template is subject to frequent changes. Please make sure you have read the usage documentation and example code completely and carefully before using and asking questions.**
 
@@ -165,7 +164,7 @@ There are two ways to obtain the compiled development version:
 Please follow the procedure below:
 
 * Check the [FAQ](https://github.com/tuna/thuthesis/wiki/FAQ).
-* Search [GitHub Discussions](https://github.com/tuna/thuthesis/discussions) and create if not existed.
+* Search [GitHub Discussions](https://github.com/tuna/thuthesis/discussions) and create a new discussion if none exists.
 * Create an issue (with specified template) if you believe there is a bug.
 * Beginners may go to [wiki/新手指南](https://github.com/tuna/thuthesis/wiki/新手指南) for basic information.
 
@@ -176,8 +175,9 @@ make [{all|thesis|doc|clean|cleanall|distclean}]
 ```
 
 ### Targets
+* `make all`       same as `make thesis`;
 * `make thesis`    generate thesis `thuthesis-example.pdf`;
-* `make doc`       generate template documentation thuthesis.pdf;
-* `make clean`     delete all examples' files (excluding thuthesis-example.pdf);
-* `make cleanall`  delete all examples' files and thuthesis-example.pdf;
+* `make doc`       generate template documentation `thuthesis.pdf`;
+* `make clean`     delete all intermediate files of the example (excluding `thuthesis-example.pdf`);
+* `make cleanall`  delete all intermediate files of the example and `thuthesis-example.pdf`;
 * `make distclean` delete all examples' and templates' files and PDFs.
